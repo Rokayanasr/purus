@@ -1,0 +1,45 @@
+const moreTextEl = document.getElementById('more-text');
+const toggleBtnEl = document.getElementById('toggle-btn');
+const hideBtnEl = document.getElementById('hide-btn');
+const moreTextEl2 = document.getElementById('more-text2');
+const toggleBtnEl2 = document.getElementById('toggle-btn2');
+const hideBtnEl2 = document.getElementById('hide-btn2');
+const moreTextEl3 = document.getElementById('more-text3');
+const toggleBtnEl3 = document.getElementById('toggle-btn3');
+const hideBtnEl3 = document.getElementById('hide-btn3');
+
+toggleBtnEl.addEventListener('click', () => {
+    moreTextEl.classList.toggle('hidden');
+    toggleBtnEl.classList.toggle('hidden');
+    hideBtnEl.classList.toggle('hidden');
+});
+
+hideBtnEl.addEventListener('click', () => {
+    moreTextEl.classList.toggle('hidden');
+    toggleBtnEl.classList.toggle('hidden');
+    hideBtnEl.classList.toggle('hidden');
+});
+
+toggleBtnEl2.addEventListener('click', () => {
+    moreTextEl2.classList.toggle('hidden');
+    toggleBtnEl2.classList.toggle('hidden');
+    hideBtnEl2.classList.toggle('hidden');
+});
+
+hideBtnEl2.addEventListener('click', () => {
+    moreTextEl2.classList.toggle('hidden');
+    toggleBtnEl2.classList.toggle('hidden');
+    hideBtnEl2.classList.toggle('hidden');
+});
+
+toggleBtnEl3.addEventListener('click', () => {
+    moreTextEl3.classList.toggle('hidden');
+    toggleBtnEl3.classList.toggle('hidden');
+    hideBtnEl3.classList.toggle('hidden');
+});
+
+hideBtnEl3.addEventListener('click', () => {
+    moreTextEl3.classList.toggle('hidden');
+    toggleBtnEl3.classList.toggle('hidden');
+    hideBtnEl3.classList.toggle('hidden');
+});

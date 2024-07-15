@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Cairo", sans-serif;
+    /* font-optical-sizing: auto; */
+    box-sizing: border-box;
+    background-color: white;
+}
+
+:root {
+    --primary: #48385e;
+    --secondary: #cea7dc;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button {
+    @apply text-primary;
+}
+h1 {
+    @apply text-4xl rounded-2xl font-extrabold leading-normal;
+}
+h2 {
+    @apply text-2xl rounded-2xl font-bold my-1.5 leading-normal;
+}
+h3 {
+    font-size: 1.35rem;
+}
+h4,
+time {
+    font-size: 1.27rem;
+}
+h5 {
+    font-size: 1.1rem;
+}
+p {
+    font-size: 1.02rem;
+}
+.my-container {
+    @apply py-5 px-20;
+}
+.my-container-div {
+    @apply py-16 px-20;
+}
+
+.glass {
+    @apply bg-opacity-5 backdrop-blur-lg bg-white shadow-lg ring-1 ring-black/5;
+}
+.primary-btn {
+    @apply bg-primary py-2.5 px-4 rounded-2xl hover:bg-phover;
+}
+.primary-outline-btn {
+    @apply font-bold py-2.5 px-4 rounded-2xl outline outline-2 outline-secondary text-white bg-primary transition-all duration-200 ease-in bg-opacity-100 hover:bg-opacity-80;
+}
+.secondary-btn-outline {
+    @apply font-bold py-2.5 px-4 text-lg rounded-2xl outline outline-2 outline-primary bg-secondary transition-all duration-200 ease-in bg-opacity-100 hover:bg-opacity-80;
+}
+@media (max-width: 639px) {
+    :root {
+        font-size: 16px;
+    }
+    .my-container {
+        @apply py-5 px-5;
+    }
+    .my-container-div {
+        @apply py-20 px-5;
+    }
+
+}
+
+body ::selection {
+    background: #d4b8d3;
+    color: white;
+}
+
+.logo {
+    width: 50px !important;
+}
+
+.hero-bg {
+    background: url("assets/bg.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-cleansing {
+    border-top-left-radius: 70px;
+}
+
+/*  ===============dep-bg============== */
+
+.dep-bg {
+    background: url("assets/moknsa.png");
+    background-position: top right;
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+
+.aboutus-bg {
+    background: linear-gradient(to right bottom, #390151e5 10%, #3c036edf 100%), url("assets/aboutus-left.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutus2-bg {
+    background: linear-gradient(to right bottom, #390151e5 0%, #23073bdf 100%), url("assets/aboutus-left.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.mission-img {
+    background: linear-gradient(to right bottom, #23003116 0%, #19012d15 100%), url("assets/mission.jpeg");
+    background-position: 15% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 85%;
+}
+.mission-card {
+    @apply transition-all duration-200 ease-in hover:bg-primary;
+}
+.mission-card:hover h5,
+svg {
+    color: white;
+}
+
+@media (max-width:1025px) {
+    .value-img{
+        height: 40vh !important;
+    }
+    .mission-img {
+        width: 100%;
+    }
+}
+
+
+/* .left-side {
+    background-image: linear-gradient(
+        to bottom left,
+        rgba(31, 1, 53, 0.857),
+        #3f2c5ba7
+      ),
+      url("assets/value.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+  
+  }
+  .txtt{
+  
+     justify-content: center !important;
+     align-items: center !important;
+     justify-items: center !important;
+  }
+  .bluring {
+    background-color: #48385e94;
+    filter: blur(1.5rem);
+    position: absolute;
+    z-index: -2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-filter: blur(7px);
+  }
+  .bluring1{
+    background-color: #E6D0E5;
+    filter: blur(1.5rem);
+    -webkit-filter: blur(10px);
+  }
+  .whyus{
+      height: 75vh !important;
+  }
+  @media (max-width:1000px) {
+      .whyus{
+          height: auto !important;
+      }
+  }
+  .hrr{
+      align-items: center !important;
+      justify-content: center;
+  } */
+
+.value-img{
+    /* background: linear-gradient(to right bottom, #532d72c3 , #532d72c3 ), url("assets/value.jpg"); */
+    width: 100%;
+    height: 400px;
+    /* background-position: 15% 50%;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.line {
+    height: 0.5px;
+    width: 96%;
+}
+/* .manhagna-text{
+    width: 80%;
+} */
+
+/* Ellipse 4 */
+
+.circle{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 224px;
+    top: 1578px;
+    
+    /* Pure White */
+    background: #FFFFFF;
+    /* Light Gray */
+    border: 1px solid #DEDEDE;
+    
+}
+
+.manhagna-card{
+    /* Rectangle 12 */
+box-sizing: border-box;
+position: absolute;
+bottom: 90px;
+}
+
+.manhagna-section{
+    /* Service */
+
+position: absolute;
+width: 1170px;
+height: 359px;
+left: 135px;
+top: 1453px;
+}
