@@ -3649,7 +3649,8 @@ body {
   background-color: white;
 }
 
-html, body {
+html,
+body {
   max-width: 100%;
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -3840,7 +3841,7 @@ nav.hidden {
 .dep-bg {
   background: url("assets/body-bg2.svg");
   background-position: top right;
-  background-repeat: repeat-x;
+  background-repeat: no-repeat;
   background-size: contain;
 }
 
@@ -4585,4 +4586,3 @@ svg {
 .rtl\:space-x-reverse:where([dir="rtl"], [dir="rtl"] *) > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 1;
 }
-
