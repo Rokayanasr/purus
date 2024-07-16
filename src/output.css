@@ -2949,10 +2949,6 @@ input:checked + .toggle-bg{
   padding-bottom: 0.75rem;
 }
 
-.pb-10{
-  padding-bottom: 2.5rem;
-}
-
 .pb-3{
   padding-bottom: 0.75rem;
 }
@@ -4450,6 +4446,10 @@ svg {
     margin-top: 2.5rem;
   }
 
+  .lg\:mb-0{
+    margin-bottom: 0px;
+  }
+
   .lg\:flex{
     display: flex;
   }
@@ -4469,6 +4469,10 @@ svg {
 
   .lg\:h-full{
     height: 100%;
+  }
+
+  .lg\:h-96{
+    height: 24rem;
   }
 
   .lg\:w-10{
