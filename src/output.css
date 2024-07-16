@@ -4442,12 +4442,12 @@ svg {
     margin-bottom: 4rem;
   }
 
-  .lg\:mt-10{
-    margin-top: 2.5rem;
-  }
-
   .lg\:mb-0{
     margin-bottom: 0px;
+  }
+
+  .lg\:mt-10{
+    margin-top: 2.5rem;
   }
 
   .lg\:flex{
@@ -4469,10 +4469,6 @@ svg {
 
   .lg\:h-full{
     height: 100%;
-  }
-
-  .lg\:h-96{
-    height: 24rem;
   }
 
   .lg\:w-10{
