@@ -1196,6 +1196,10 @@ input:checked + .toggle-bg{
   order: -9999;
 }
 
+.order-last{
+  order: 9999;
+}
+
 .float-start{
   float: inline-start;
 }
@@ -4425,6 +4429,10 @@ svg {
 
   .lg\:order-last{
     order: 9999;
+  }
+
+  .lg\:order-first{
+    order: -9999;
   }
 
   .lg\:row-span-2{
