@@ -16,12 +16,12 @@
         <div class="flex">
             <div class="relative">
                 <!-- Outer Ring-->
-                <div class="w-32 h-32 rounded-full absolute
+                <div class="w-14 h-14w-14 rounded-full absolute
                 border-8 border-solid border-gray-200"></div>
 
                 <!-- Inner Ring -->
-                <div class="w-32 h-32 rounded-full animate-spin absolute
-                border-8 border-solid border-purple-500 border-t-transparent shadow-md"></div>
+                <div class="w-14 h-14w-14 rounded-full animate-spin absolute
+                border-8 border-solid border-purple-600 border-t-transparent shadow-md"></div>
             </div>
         </div>
 
@@ -256,7 +256,7 @@
                             class="text-2xl text-center md:text-justify font-bold bg-secondary p-2 w-fit rounded-xl leading-relaxed">
                             قــيمنا</h2>
                     </div>
-                    <div class="flex gap-14 rounded-xl h-full">
+                    <div class="flex lg:gap-10 gap-8 rounded-xl h-full">
                         <div class="flex flex-col gap-5 justify-center">
                             <!-- feature one -->
                             <div
@@ -1071,8 +1071,23 @@
 
 
                 <div class="lg:bg-secondarybg flex-col text-white lg:text-primary items-center gap-8 justify-center lg:w-8/12 w-full p-2 lg:p-10 mb-8 rounded-lg lg:absolute contact-div lg:shadow-lg flex ">
-                    <div class="flex lg:gap-0 justify-around w-full">
-                        <div class="flex flex-col items-center">
+                    <div class="lg:hidden flex flex-col items-center">
+                        <svg class="w-10 fill-white lg:fill-primary" id="fi_7686128" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg" data-name="Layer 4">
+                            <g id="Glyph">
+                                <g id="Pin_Mark" data-name="Pin Mark">
+                                    <path
+                                        d="m12 2a8.21 8.21 0 0 0 -8 8.39c0 4.39 6.57 10.64 7.32 11.34a.991.991 0 0 0 1.36 0c.75-.7 7.32-6.95 7.32-11.34a8.21 8.21 0 0 0 -8-8.39zm0 5a3 3 0 1 1 -3 3 3.009 3.009 0 0 1 3-3z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                        <h4 class="font-semibold text-white lg:text-primary text-center">العنوان</h4>
+                        <p class="text-center text-white lg:text-primary">18 ، ش الزيات ، ابوظبي</p>
+
+                    </div>
+                    <div class="flex flex-row lg:gap-0 gap-4 justify-around w-full">
+                        <div class="lg:flex hidden flex-col items-center">
                             <svg class="w-10 fill-white lg:fill-primary" id="fi_7686128" viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg" data-name="Layer 4">
                                 <g id="Glyph">
@@ -1281,7 +1296,7 @@
 
 
     <script src="./main.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.4.7/flowbite.min.js"></script>
+    <script src="./../node_modules/flowbite/dist/flowbite.min.js"></script>
 </body>
 
 </html>

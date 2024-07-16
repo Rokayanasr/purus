@@ -1395,10 +1395,6 @@ input:checked + .toggle-bg{
   height: 4rem;
 }
 
-.h-32{
-  height: 8rem;
-}
-
 .h-4{
   height: 1rem;
 }
@@ -1461,8 +1457,8 @@ input:checked + .toggle-bg{
   width: 3rem;
 }
 
-.w-32{
-  width: 8rem;
+.w-14{
+  width: 3.5rem;
 }
 
 .w-4{
@@ -2156,6 +2152,10 @@ input:checked + .toggle-bg{
   gap: 2rem;
 }
 
+.gap-6{
+  gap: 1.5rem;
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -2677,9 +2677,9 @@ input:checked + .toggle-bg{
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
 
-.border-purple-500{
+.border-purple-600{
   --tw-border-opacity: 1;
-  border-color: rgb(144 97 249 / var(--tw-border-opacity));
+  border-color: rgb(126 58 242 / var(--tw-border-opacity));
 }
 
 .border-t-transparent{
@@ -4516,6 +4516,10 @@ svg {
     gap: 4rem;
   }
 
+  .lg\:gap-4{
+    gap: 1rem;
+  }
+
   .lg\:gap-5{
     gap: 1.25rem;
   }
@@ -4524,8 +4528,8 @@ svg {
     gap: 2rem;
   }
 
-  .lg\:gap-4{
-    gap: 1rem;
+  .lg\:gap-10{
+    gap: 2.5rem;
   }
 
   .lg\:bg-secondarybg{
