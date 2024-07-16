@@ -10,20 +10,20 @@
 </head>
 
 <body>
-    <div id="msg" class="flex justify-center items-center w-screen h-screen" >
+    <div id="msg" class="flex justify-center items-center w-screen h-screen">
 
-            <!-- Closed Ring Spinner s8 -->
-            <div class="flex">
-                <div class="relative">
-                    <!-- Outer Ring-->
-                    <div class="w-32 h-32 rounded-full absolute
+        <!-- Closed Ring Spinner s8 -->
+        <div class="flex">
+            <div class="relative">
+                <!-- Outer Ring-->
+                <div class="w-32 h-32 rounded-full absolute
                 border-8 border-solid border-gray-200"></div>
 
-                    <!-- Inner Ring -->
-                    <div class="w-32 h-32 rounded-full animate-spin absolute
+                <!-- Inner Ring -->
+                <div class="w-32 h-32 rounded-full animate-spin absolute
                 border-8 border-solid border-purple-500 border-t-transparent shadow-md"></div>
-                </div>
             </div>
+        </div>
 
     </div>
 
@@ -36,7 +36,7 @@
                     class="bg-white bg-opacity-50 backdrop-blur-xl fixed z-20 w-full border-gray-200 { 'scrolled': !view.atTopOfPage }">
                     <div class="max-w-screen-xl my-container flex flex-wrap items-center justify-between mx-auto p-4">
                         <button data-collapse-toggle="navbar-default" type="button"
-                            class="inline-flex items-center p-2 w-10 h-10 justify-center text-primary text-sm rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-secondary dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                            class="inline-flex items-center p-2 w-10 h-10 justify-center text-primary text-md rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-secondary dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                             aria-controls="navbar-default" aria-expanded="false">
                             <span class="sr-only">Open main menu</span>
                             <svg class="w-5 h-5 fill-primary text-primary" aria-hidden="true"
@@ -80,11 +80,7 @@
                                         class="block py-2 px-2.5 text-lg text-primary md:bg-transparent"
                                         aria-current="page">اتصل بنا</a>
                                 </li>
-                                <!-- <li
-                            class="md:hover:bg-secondary bg-transparent transition-all duration-200 ease-in bg-opacity-35 hover:bg-opacity-100 md:rounded-full">
-                            <a href="#" class="block py-2 px-2.5 text-lg text-primary md:bg-transparent"
-                                aria-current="page">الباقات</a>
-                        </li> -->
+
                             </ul>
                         </div>
 
@@ -104,7 +100,9 @@
                         <h1 class="sm:hidden block text-center text-focus-in">احصلـوا على خـدمة تنظيــفٍ احترافيــة
                             لمنازلـكـم!
                         </h1>
-                        <h3 class="bg-secondary text-focus-in  font-semibold text-primary w-fit p-2 rounded-xl text-center">مع عروضٍ
+                        <h3
+                            class="bg-secondary text-focus-in  font-semibold text-primary w-fit p-2 rounded-xl text-center">
+                            مع عروضٍ
                             خاصة
                             وجودةٍ لا تقبل المنافسة!</h3>
                         <a href="#contactus" class="flex text-focus-in  justify-center items-center lg:justify-start">
@@ -162,10 +160,13 @@
 
         <!-- ======================ABOUT US====================== -->
         <section id="aboutus" class="my-container-div bg1">
-            <div  class="flex flex-col sm:flex-row justify-center items-center gap-16">
-                <div class="basis-1/2 flex flex-col justify-center items-center md:items-start">
+            <div class="flex flex-col sm:flex-row justify-center order-3 items-center gap-8 lg:gap-16">
+                <h2
+                    class="text-2xl lg:hidden flex text-center md:text-justify order-1 font-bold bg-secondary p-2 w-fit rounded-xl leading-relaxed">
+                    نبذة عنّا</h2>
+                <div class="basis-1/2 flex flex-col justify-center order-3 items-center md:items-start">
                     <h2
-                        class="text-2xl text-center md:text-justify font-bold bg-secondary p-2 w-fit rounded-xl leading-relaxed">
+                        class="text-2xl hidden lg:flex text-center md:text-justify font-bold bg-secondary p-2 w-fit rounded-xl leading-relaxed">
                         نبذة عنّا</h2>
                     <p class="text-justify text-primary leading-7 tracking-normal">
                         <span class="text-primary font-bold text-lg">بيــــرس</span>
@@ -189,7 +190,7 @@
                         إلى دعم المزيد من العملاء الباحثين عن الجودة.
                     </p>
                 </div>
-                <div class="basis-1/2 sm:order-last order-first">
+                <div class="basis-1/2  order-2 lg:order-last">
                     <img loading="lazy" class="w-fit h-fit rounded-xl" src="./assets/about.jpg" alt="" />
                 </div>
             </div>
@@ -272,7 +273,7 @@
                                         </svg>
                                         <h5 class="text-primary font-bold">الإتقــان</h5>
                                     </div>
-                                    <h5 class="text-sm text-justify">نتقن مجالنا ونحرص على تقديم نتائج تفوق توقعات
+                                    <h5 class="text-md text-justify">نتقن مجالنا ونحرص على تقديم نتائج تفوق توقعات
                                         عملائنا،
                                         وننمي قيمة الإتقان في أفراد فريق العمل.</h5>
                                 </div>
@@ -300,7 +301,7 @@
                                         </svg>
                                         <h5 class="text-primary font-bold">الالتــزام</h5>
                                     </div>
-                                    <h5 class="text-sm text-justify">نلتزم بتنفيذ أعمالنا بدقةٍ في الوقت المطلوب، وحسب
+                                    <h5 class="text-md text-justify">نلتزم بتنفيذ أعمالنا بدقةٍ في الوقت المطلوب، وحسب
                                         اتفاقنا
                                         مع العملاء، لأن ثقة عملائنا غايتنا.</h5>
                                 </div>
@@ -369,7 +370,7 @@
                                         </svg>
                                         <h5 class="text-primary font-bold">الجـــودة</h5>
                                     </div>
-                                    <h5 class="text-sm text-justify">نطبق معايير الجودة الشاملة في كل عملٍ ننفذه؛ وسابقة
+                                    <h5 class="text-md text-justify">نطبق معايير الجودة الشاملة في كل عملٍ ننفذه؛ وسابقة
                                         أعمالنا
                                         خير دليلٍ على جودة خدماتنا.</h5>
                                 </div>
@@ -410,7 +411,7 @@
                                         </svg>
                                         <h5 class="text-primary font-bold">الأمــان</h5>
                                     </div>
-                                    <h5 class="text-sm text-justify">نضع معايير السلامة والأمان في المقدمة، من خلال
+                                    <h5 class="text-md text-justify">نضع معايير السلامة والأمان في المقدمة، من خلال
                                         تهيئة
                                         بيئة
                                         العمل، واستخدام مواد تنظيف آمنة.</h5>
@@ -428,8 +429,8 @@
         </div>
 
         <!-- =====================WHY CHOOSE US================ -->
-        <section id="whyus"  class="my-container-div ">
-            <div  class=" flex flex-col sm:flex-row whyus rounded-xl shadow-xl shadow-[#2e1c3d56]">
+        <section id="whyus" class="my-container-div ">
+            <div class=" flex flex-col sm:flex-row whyus rounded-xl shadow-xl shadow-[#2e1c3d56]">
                 <div
                     class="sm:w-1/4  rounded-r-xl relative bg-secondarybg text-center p-10 flex flex-col gap-2 justify-center items-center sm:items-center">
                     <h1 class="text-primary p-5">لماذا نحن</h1>
@@ -460,7 +461,7 @@
                                     <h5 class="font-bold text-white">الالتــزام</h5>
                                 </div>
 
-                                <h6 class="text-white text-sm text-justify">
+                                <h6 class="text-white text-md text-justify">
                                     بالاتفاق مع العملاء وتطبيق معايير الجودة والأمان في كل أعمالنا.
                                 </h6>
                             </div>
@@ -478,7 +479,7 @@
                                     <h5 class="font-bold text-white">خبرة</h5>
                                 </div>
 
-                                <h6 class="text-white text-sm text-justify">
+                                <h6 class="text-white text-md text-justify">
                                     طويلة في مجال خدمات التنظيف مما يجعلنا المزوّد الأفضل لهذه الخدمة.
                                 </h6>
                             </div>
@@ -495,7 +496,7 @@
                                     <h5 class="font-bold text-white">عروض أسعار تنافسية</h5>
                                 </div>
 
-                                <h6 class="text-white text-sm text-justify">
+                                <h6 class="text-white text-md text-justify">
                                     وباقات مختلفة تناسب الجميع وإمكانية العمل بالساعة!
                                 </h6>
                             </div>
@@ -560,7 +561,7 @@
                                     <h5 class="font-bold  text-white">فريق عمل مدرب</h5>
                                 </div>
 
-                                <h6 class="text-white text-sm text-justify">
+                                <h6 class="text-white text-md text-justify">
                                     ينفذ المطلوب بدقةٍ عالية وفي وقتٍ قياسي
                                 </h6>
                             </div>
@@ -598,7 +599,7 @@
                                     <h5 class="font-bold text-white">تنوع الخدمات </h5>
                                 </div>
 
-                                <h6 class="text-white text-sm text-justify">
+                                <h6 class="text-white text-md text-justify">
                                     بين التنظيف البسيط والعميق وتلميع النوافذ وواجهات المباني.
                                 </h6>
                             </div>
@@ -611,7 +612,7 @@
         </section>
 
         <!-- ===============SERVICES============== -->
-        <div id="service"  class="my-container-div">
+        <div id="service" class="my-container-div">
             <div class="flex items-center justify-center pb-4">
                 <h1
                     class="text-2xl text-center md:text-justify font-bold bg-secondary py-2 px-5 w-fit rounded-xl leading-relaxed">
@@ -651,7 +652,7 @@
 
                         </div>
                         <div>
-                            <h6 class="text-justify font-semibold leading-6 text-sm">خبرة طويلة في تقديم خدمات التنظيف
+                            <h6 class="text-justify font-semibold leading-6 text-md">خبرة طويلة في تقديم خدمات التنظيف
                                 للمنازل،
                                 والوحدات السكنية، وأماكن العمل.
                                 <span class="hidden" id="more-text">
@@ -662,10 +663,10 @@
                                     وغيرها من متطلبات التنظيف؛ فإن فريقنا مستعد لتقديم أفضل النتائج، وأهم ما يميز
                                     الخدمة:
                                 </span>
-                                <button id="toggle-btn" class=" text-blue-500 text-xs">اقرأ المزيد ..</button>
+                                <button id="toggle-btn" class=" text-blue-500 text-md">اقرأ المزيد ..</button>
                             </h6>
 
-                            <button id="hide-btn" class="hidden text-blue-500 focus:outline-none text-xs">اخفاء
+                            <button id="hide-btn" class="hidden text-blue-500 focus:outline-none text-md">اخفاء
                                 ..</button>
 
                         </div>
@@ -676,32 +677,32 @@
                     <div class="flex flex-col lg:w-fit justify-start items-start gap-3">
                         <div class="flex gap-2">
                             <img loading="lazy" class="h-5" src="./assets/arrow-right-circle.svg" alt="">
-                            <p class="text-xs font-semibold text-justify tracking-normal leading-5">
+                            <p class="text-md  text-justify tracking-normal leading-5">
                                 يضم الفريق عمّال مهرة من الجنسين وغالبًا تختص النساء بعمليات التنظيف البسيط. </p>
                         </div>
 
                         <div class="flex gap-2">
                             <img loading="lazy" class="h-5" src="./assets/arrow-right-circle.svg" alt="">
-                            <p class="text-xs font-semibold text-justify tracking-normal leading-5">
+                            <p class="text-md  text-justify tracking-normal leading-5">
                                 الاهتمام بأدق التفاصيل وتلقي الملاحظات من العملاء بصدرٍ رحب.
                             </p>
                         </div>
 
                         <div class="flex gap-2">
                             <img loading="lazy" class="h-5" src="./assets/arrow-right-circle.svg" alt="">
-                            <p class="text-xs font-semibold text-justify tracking-normal leading-5">
+                            <p class="text-md  text-justify tracking-normal leading-5">
                                 الالتزام بمواعيد التنفيذ بدقة وتسليم المكان نظيف تمامًا في الموعد المحدد.
                         </div>
 
                         <div class="flex gap-2">
                             <img loading="lazy" class="h-5" src="./assets/arrow-right-circle.svg" alt="">
-                            <p class="text-xs font-semibold text-justify tracking-normal leading-5">
+                            <p class="text-md  text-justify tracking-normal leading-5">
                                 مواد تنظيف آمنة وصديقة للبيئة لإمكانية مزاولة الحياة الطبيعية في وقت التنظيف. </p>
                         </div>
 
                     </div>
                     <a href="#">
-                        <button class="bg-primary p-2 hover:opacity-85 rounded-xl mt-4 text-sm text-white">اطلب
+                        <button class="bg-primary p-2 hover:opacity-85 rounded-xl mt-4 text-md text-white">اطلب
                             الخدمة</button>
                     </a>
                 </div>
@@ -739,7 +740,7 @@
 
                         </div>
                         <div>
-                            <h6 class="text-justify font-semibold leading-6 text-sm">
+                            <h6 class="text-justify font-semibold leading-6 text-md">
                                 إذا كنتم تريدون إجراء عمليات تنظيف عميقة وشاملة؛ فإننا سنكون الخيار الأمثل.
                                 <span class="hidden" id="more-text2">
                                     فمهما كانت حالة المنزل أو المكان؛ فإن حلولنا ستؤدي المطلوب بدقةٍ عالية. نضمن لكم
@@ -751,10 +752,10 @@
                                     المميزات
                                     التالية:
                                 </span>
-                                <button id="toggle-btn2" class=" text-blue-500 text-xs">اقرأ المزيد ..</button>
+                                <button id="toggle-btn2" class=" text-blue-500 text-md">اقرأ المزيد ..</button>
                             </h6>
 
-                            <button id="hide-btn2" class="hidden text-blue-500 focus:outline-none text-xs">اخفاء
+                            <button id="hide-btn2" class="hidden text-blue-500 focus:outline-none text-md">اخفاء
                                 ..</button>
 
                         </div>
@@ -765,32 +766,32 @@
                     <div class="flex flex-col lg:w-fit justify-start items-start gap-3">
                         <div class="flex gap-2">
                             <img loading="lazy" class="h-5" src="./assets/arrow-right-circle.svg" alt="">
-                            <p class="text-xs font-semibold text-justify tracking-normal leading-5">
+                            <p class="text-md  text-justify tracking-normal leading-5">
                                 يتولى مهام التنظيف العميق فريق من الرجال لتنفيذ الأمور التي تستلزم مجهود بدني.
                             </p>
                         </div>
 
                         <div class="flex gap-2">
                             <img loading="lazy" class="h-5" src="./assets/arrow-right-circle.svg" alt="">
-                            <p class="text-xs font-semibold text-justify tracking-normal leading-5">
+                            <p class="text-md  text-justify tracking-normal leading-5">
                                 مرونة في المواعيد؛ إذ نصلكم في الموعد الذي يناسبكم، ونضمن لكم التسليم بدقة. </p>
                         </div>
 
                         <div class="flex gap-2">
                             <img loading="lazy" class="h-5" src="./assets/arrow-right-circle.svg" alt="">
-                            <p class="text-xs font-semibold text-justify tracking-normal leading-5">
+                            <p class="text-md  text-justify tracking-normal leading-5">
                                 جميع المواد آمنة وذات فعالية عالية للتطهير والتعقيم وصديقة تمامًا للبيئة.
                         </div>
 
                         <div class="flex gap-2">
                             <img loading="lazy" class="h-5" src="./assets/arrow-right-circle.svg" alt="">
-                            <p class="text-xs font-semibold text-justify tracking-normal leading-5">
+                            <p class="text-md  text-justify tracking-normal leading-5">
                                 مرونة في التعاقد وعروض أسعار تنافسية للغاية مقارنة بالنتائج التي تحصلون عليها.
                         </div>
 
                     </div>
                     <a href="#">
-                        <button class="bg-primary p-2 hover:opacity-85 rounded-xl mt-4 text-sm text-white">اطلب
+                        <button class="bg-primary p-2 hover:opacity-85 rounded-xl mt-4 text-md text-white">اطلب
                             الخدمة</button>
                     </a>
                 </div>
@@ -828,7 +829,7 @@
 
                         </div>
                         <div>
-                            <h6 class="text-justify font-semibold leading-6 text-sm">
+                            <h6 class="text-justify font-semibold leading-6 text-md">
                                 تبحثون عن فريقٍ متخصص في تنظيف واجهات المباني باختلاف أنواعها؟! مرحبًا بكم
                                 <span class="hidden" id="more-text3">
                                     مع الخدمة الأفضل على الإطلاق لتنفيذ هذه المهمة! فمن خلال خبرتنا الطويلة استطعنا
@@ -839,10 +840,10 @@
                                     ونضمن
                                     لكم توفير هذه المميزات:
                                 </span>
-                                <button id="toggle-btn3" class=" text-blue-500 text-xs">اقرأ المزيد ..</button>
+                                <button id="toggle-btn3" class=" text-blue-500 text-md">اقرأ المزيد ..</button>
                             </h6>
 
-                            <button id="hide-btn3" class="hidden text-blue-500 focus:outline-none text-xs">اخفاء
+                            <button id="hide-btn3" class="hidden text-blue-500 focus:outline-none text-md">اخفاء
                                 ..</button>
 
                         </div>
@@ -853,31 +854,31 @@
                     <div class="flex flex-col lg:w-fit justify-start items-start gap-3">
                         <div class="flex gap-2">
                             <img class="h-5" src="./assets/arrow-right-circle.svg" alt="">
-                            <p class="text-xs font-semibold text-justify tracking-normal leading-5">
+                            <p class="text-md  text-justify tracking-normal leading-5">
                                 معدات آمنة تمامًا لتمكين الفريق من الوصول إلى أبعد الأماكن بسهولة. </p>
                         </div>
 
                         <div class="flex gap-2">
                             <img class="h-5" src="./assets/arrow-right-circle.svg" alt="">
-                            <p class="text-xs font-semibold text-justify tracking-normal leading-5">
+                            <p class="text-md  text-justify tracking-normal leading-5">
                                 تلميع الواجهات الزجاجية وإعادة البريق إليها في وقتٍ قياسي.
                             </p>
                         </div>
 
                         <div class="flex gap-2">
                             <img class="h-5" src="./assets/arrow-right-circle.svg" alt="">
-                            <p class="text-xs font-semibold text-justify tracking-normal leading-5">
+                            <p class="text-md  text-justify tracking-normal leading-5">
                                 إزالة الأتربة أو البقع من الواجهات باختلاف فئاتها وإعادتها إلى حالتها الأولى.
                         </div>
 
                         <div class="flex gap-2">
                             <img class="h-5" src="./assets/arrow-right-circle.svg" alt="">
-                            <p class="text-xs font-semibold text-justify tracking-normal leading-5">
+                            <p class="text-md  text-justify tracking-normal leading-5">
                                 مرونة في مواعيد التنفيذ والتسليم والمتابعة معكم خطوة بخطوة لتنفيذ مرادكم.
                         </div>
                     </div>
                     <a href="#">
-                        <button class="bg-primary p-2 hover:opacity-85 rounded-xl mt-4 text-sm text-white">اطلب
+                        <button class="bg-primary p-2 hover:opacity-85 rounded-xl mt-4 text-md text-white">اطلب
                             الخدمة</button>
                     </a>
                 </div>
@@ -938,8 +939,9 @@
         </div>
 
         <!-- ===============MANHAGNA============== -->
-        <section id="manhagna" class="lg:my-16 lg:mx-20 py-10 px-14 rounded-xl bg-secondarybg shadow-lg shadow-[#22152d13]">
-            <div  class="flex gap-8 relative rounded-xl flex-col justify-center items-center ">
+        <section id="manhagna"
+            class="lg:my-16 lg:mx-20 mx-2 py-10 px-2 md:px-12 rounded-xl bg-secondarybg shadow-lg shadow-[#22152d13]">
+            <div class="flex gap-8 relative rounded-xl flex-col justify-center items-center ">
                 <h2
                     class="text-2xl text-center md:text-justify font-bold bg-secondary py-2 px-5 w-fit rounded-xl leading-relaxed">
                     منهجنا</h2>
@@ -948,8 +950,10 @@
                     دومًا
                     للعملاء النتائج التي يبحثون عنها، وهذه أسس منهجنا
                 </h5>
-                <div class="flex flex-col lg:flex-row justify-between items-center gap-12">
-                    <div class="p-8 bg-[#7e708510] relative flex-col flex justify-center items-center rounded-xl">
+                <div
+                    class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 w-full flex-col lg:flex-row justify-between items-center gap-4">
+                    <div
+                        class="p-10 w-full bg-[#7e708510] relative flex-col flex justify-center items-center rounded-xl h-full">
 
                         <div class="w-12 h-12 rounded-full p-2 bg-secondary manhagna-card">
                             <svg class=" w-8 fill-primary" id="fi_4753208" enable-background="new 0 0 512 512"
@@ -968,12 +972,13 @@
                             </svg>
                         </div>
 
-                        <p class="text-justify tracking-tight">
+                        <p class="text-center tracking-wide">
                             <strong>تحديد</strong>
                             الموعد المناسب حسب طبيعة جدول العميل والمرونة في الاتفاق.
                         </p>
                     </div>
-                    <div class="p-8 bg-[#7e708510] relative flex-col flex justify-center items-center rounded-xl">
+                    <div
+                        class="p-10 w-full bg-[#7e708510] relative flex-col flex justify-center items-center rounded-xl h-full">
 
                         <div class="w-12 h-12 rounded-full p-2 bg-secondary manhagna-card">
                             <svg class=" w-7 fill-primary" id="fi_4257460" enable-background="new 0 0 609.637 609.637"
@@ -1005,12 +1010,13 @@
                             </svg>
                         </div>
 
-                        <p class="text-justify tracking-tight">
+                        <p class="text-center tracking-wide">
                             <strong>وضع</strong>
                             خطة عمل شاملة تضم كل ما يحتاج إليه العميل وإجراء معاينة أولية
                         </p>
                     </div>
-                    <div class="p-8 bg-[#7e708510] relative flex-col flex justify-center items-center rounded-xl">
+                    <div
+                        class="p-10 w-full bg-[#7e708510] relative flex-col flex justify-center items-center rounded-xl h-full">
 
                         <div class="w-12 h-12 rounded-full p-2 bg-secondary manhagna-card">
                             <svg class=" w-8 fill-primary" id="fi_10981354" viewBox="0 0 512 512"
@@ -1021,12 +1027,13 @@
                             </svg>
                         </div>
 
-                        <p class="text-justify tracking-tight">
+                        <p class="text-center tracking-wide">
                             <strong>الاستعداد</strong>
                             من خلال اختيار أفراد الفريق الذين سيقدمون خدمة التنظيف
                         </p>
                     </div>
-                    <div class="p-8 bg-[#7e708510] relative flex-col flex justify-center items-center rounded-xl">
+                    <div
+                        class="p-10 w-full bg-[#7e708510] relative flex-col flex justify-center items-center rounded-xl h-full">
 
                         <div class="w-12 h-12 rounded-full p-2 bg-secondary manhagna-card">
                             <svg class=" w-8 fill-primary" id="fi_3468577" enable-background="new 0 0 512 512"
@@ -1042,7 +1049,7 @@
                             </svg>
                         </div>
 
-                        <p class="text-justify tracking-tight">
+                        <p class="text-center tracking-wide">
                             <strong>التنفيذ</strong>
                             بدقةٍ حسب متطلبات العمل والالتزام بالتسليم في الموعد المحدد.
                         </p>
@@ -1054,20 +1061,19 @@
 
         <!-- ===============Contact us============== -->
         <section id="contactus" class="my-container-div ">
-            <div 
-                class="flex flex-col items-center justify-start relative h-80 contact-bg  rounded-xl py-10 px-14">
-                <h1 class="text-white mb-4">اتصل بنا</h1>
-                <p class="mb-8 text-white text-center tracking-wide leading-6">
+            <div class="flex flex-col items-center justify-start lg:relative h-fit lg:h-80 contact-bg w-full rounded-xl py-10  lg:px-14">
+                <h1 class="text-white mb-4 ">اتصل بنا</h1>
+                <p class="mb-8 lg:my-0 my-2 text-white text-center tracking-wide leading-6">
                     اختياركم لـنا يدفعنا نحو تقديم الأفضل؛ لنكون عند حسن ظنكم، ولنحوز ثقتكم الغالية، ويسعدنا أن نتلقى
                     أسئلتكم
                     واستفساراتكم؛ لنجيب عليها في أقرب وقتٍ ممكن عبر قنوات الاتصال التالية:
                 </p>
 
-                <div
-                    class="bg-secondarybg flex-col text-primary items-center gap-8 justify-center lg:w-8/12 w-full p-2 lg:p-10 mb-8 rounded-lg absolute contact-div shadow-lg flex ">
+
+                <div class="lg:bg-secondarybg flex-col text-white lg:text-primary items-center gap-8 justify-center lg:w-8/12 w-full p-2 lg:p-10 mb-8 rounded-lg lg:absolute contact-div lg:shadow-lg flex ">
                     <div class="flex lg:gap-0 justify-around w-full">
                         <div class="flex flex-col items-center">
-                            <svg class="w-10 fill-primary" id="fi_7686128" viewBox="0 0 24 24"
+                            <svg class="w-10 fill-white lg:fill-primary" id="fi_7686128" viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg" data-name="Layer 4">
                                 <g id="Glyph">
                                     <g id="Pin_Mark" data-name="Pin Mark">
@@ -1077,12 +1083,12 @@
                                     </g>
                                 </g>
                             </svg>
-                            <h4 class="font-semibold text-center">العنوان</h4>
-                            <p class="text-center">18 ، ش الزيات ، ابوظبي</p>
+                            <h4 class="font-semibold text-white lg:text-primary text-center">العنوان</h4>
+                            <p class="text-center text-white lg:text-primary">18 ، ش الزيات ، ابوظبي</p>
 
                         </div>
                         <div class="flex flex-col items-center">
-                            <svg class="w-10 fill-primary" version="1.1" id="fi_646135"
+                            <svg class="w-10 fill-white lg:fill-primary" version="1.1" id="fi_646135"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
                                 y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
                                 xml:space="preserve">
@@ -1144,11 +1150,11 @@
                                 <g>
                                 </g>
                             </svg>
-                            <h4 class="font-semibold text-center">البريد الالكتروني</h4>
-                            <p class="text-center">hello@creative-tim.com</p>
+                            <h4 class="font-semibold text-white lg:text-primary text-center">البريد الالكتروني</h4>
+                            <p class="text-center text-white lg:text-primary">hello@creative-tim.com</p>
                         </div>
                         <div class="flex flex-col items-center">
-                            <svg class="w-10 fill-primary" version="1.1" id="fi_126341"
+                            <svg class="w-10 fill-white lg:fill-primary" version="1.1" id="fi_126341"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
                                 y="0px" viewBox="0 0 480.56 480.56" style="enable-background:new 0 0 480.56 480.56;"
                                 xml:space="preserve">
@@ -1199,23 +1205,23 @@
                                 <g>
                                 </g>
                             </svg>
-                            <h4 class="font-semibold text-center">الهاتف</h4>
-                            <p class="text-center">+1 (424) 535-3523</p>
+                            <h4 class="font-semibold text-white lg:text-primary text-center">الهاتف</h4>
+                            <p class="text-center text-white lg:text-primary">+1 (424) 535-3523</p>
                         </div>
                     </div>
                     <!-- social media -->
                     <div class="flex lg:gap-0 justify-around w-full">
                         <div class="flex flex-col w-8 items-center">
-                            <svg class="lg:w-10 w-fit fill-primary" viewBox="0 0 512 512"
+                            <svg class="lg:w-10 w-fit fill-white lg:fill-primary" viewBox="0 0 512 512"
                                 xmlns="http://www.w3.org/2000/svg" id="fi_1051309">
                                 <path
                                     d="m437 0h-362c-41.351562 0-75 33.648438-75 75v362c0 41.351562 33.648438 75 75 75h151v-181h-60v-90h60v-61c0-49.628906 40.371094-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.351562 0 75-33.648438 75-75v-362c0-41.351562-33.648438-75-75-75zm0 0">
                                 </path>
                             </svg>
-                            <h4 class="font-semibold text-center">purus123</h4>
+                            <h4 class="font-semibold text-white lg:text-primary text-center">purus123</h4>
                         </div>
                         <div class="flex flex-col w-8 items-center">
-                            <svg class="lg:w-10 w-fit fill-primary" id="fi_5968830"
+                            <svg class="lg:w-10 w-fit fill-white lg:fill-primary" id="fi_5968830"
                                 enable-background="new 0 0 1227 1227" viewBox="0 0 1227 1227"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -1240,10 +1246,10 @@
                                 <g></g>
                                 <g></g>
                             </svg>
-                            <h4 class="font-semibold text-center">purus123</h4>
+                            <h4 class="font-semibold text-white lg:text-primary text-center">purus123</h4>
                         </div>
                         <div class="flex flex-col w-8 items-center">
-                            <svg class="lg:w-10 w-fit fill-primary" viewBox="0 0 512 512"
+                            <svg class="lg:w-10 w-fit fill-white lg:fill-primary" viewBox="0 0 512 512"
                                 xmlns="http://www.w3.org/2000/svg" id="fi_1400829">
                                 <path
                                     d="m301 256c0 24.851562-20.148438 45-45 45s-45-20.148438-45-45 20.148438-45 45-45 45 20.148438 45 45zm0 0">
@@ -1255,15 +1261,18 @@
                                     d="m377 0h-242c-74.4375 0-135 60.5625-135 135v242c0 74.4375 60.5625 135 135 135h242c74.4375 0 135-60.5625 135-135v-242c0-74.4375-60.5625-135-135-135zm45 332c0 49.625-40.375 90-90 90h-152c-49.625 0-90-40.375-90-90v-152c0-49.625 40.375-90 90-90h152c49.625 0 90 40.375 90 90zm0 0">
                                 </path>
                             </svg>
-                            <h4 class="font-semibold text-center">purus123</h4>
+                            <h4 class="font-semibold text-white lg:text-primary text-center">purus123</h4>
                         </div>
                     </div>
                 </div>
+
+
+
             </div>
         </section>
 
         <!-- ===============Footer============== -->
-        <footer class="my-container-div bg-primary mt-40 lg:mt-10">
+        <footer class="my-container-div bg-primary lg:mt-10">
             <div class="h-40 flex justify-center items-end">
                 <img src="./assets/logo.svg" class="w-44" alt="">
             </div>
@@ -1272,7 +1281,7 @@
 
 
     <script src="./main.js"></script>
-    <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.4.7/flowbite.min.js"></script>
 </body>
 
 </html>

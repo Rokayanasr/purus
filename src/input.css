@@ -182,9 +182,12 @@ svg {
     .whyus {
         height: auto !important;
     }
+    .manhagna-card {
+        bottom: 75% !important;
+    }
     .contact-div {
-        top: 90% !important;
-        height: 40vh !important;
+        top: 0% !important;
+        height: fit-content !important;
     }
 }
 .hrr {
@@ -205,7 +208,7 @@ svg {
 .manhagna-card {
     box-sizing: border-box;
     position: absolute;
-    bottom: 80%;
+    bottom: 85%;
 }
 
 .contact-div {
