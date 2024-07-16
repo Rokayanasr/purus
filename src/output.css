@@ -2132,10 +2132,6 @@ input:checked + .toggle-bg{
   gap: 2.5rem;
 }
 
-.gap-14{
-  gap: 3.5rem;
-}
-
 .gap-2{
   gap: 0.5rem;
 }
@@ -2154,10 +2150,6 @@ input:checked + .toggle-bg{
 
 .gap-8{
   gap: 2rem;
-}
-
-.gap-6{
-  gap: 1.5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
@@ -4427,12 +4419,12 @@ svg {
     position: relative;
   }
 
-  .lg\:order-last{
-    order: 9999;
-  }
-
   .lg\:order-first{
     order: -9999;
+  }
+
+  .lg\:order-last{
+    order: 9999;
   }
 
   .lg\:row-span-2{
@@ -4520,6 +4512,10 @@ svg {
     gap: 0px;
   }
 
+  .lg\:gap-10{
+    gap: 2.5rem;
+  }
+
   .lg\:gap-16{
     gap: 4rem;
   }
@@ -4534,10 +4530,6 @@ svg {
 
   .lg\:gap-8{
     gap: 2rem;
-  }
-
-  .lg\:gap-10{
-    gap: 2.5rem;
   }
 
   .lg\:bg-secondarybg{
