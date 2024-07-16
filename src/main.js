@@ -47,7 +47,7 @@ hideBtnEl3.addEventListener('click', () => {
 });
 document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('body').style.display = 'block';
-    document.getElementById('msg').style.display = 'none';
+    document.getElementById('loading').style.display = 'none';
 
     let lastScrollTop = 0;
     const nav = document.querySelector('nav');
