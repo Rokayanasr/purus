@@ -1445,6 +1445,14 @@ input:checked + .toggle-bg{
   height: 100vh;
 }
 
+.h-14{
+  height: 3.5rem;
+}
+
+.h-20{
+  height: 5rem;
+}
+
 .w-1\/2{
   width: 50%;
 }
@@ -1512,6 +1520,10 @@ input:checked + .toggle-bg{
 
 .w-screen{
   width: 100vw;
+}
+
+.w-20{
+  width: 5rem;
 }
 
 .max-w-screen-xl{
@@ -2861,6 +2873,22 @@ input:checked + .toggle-bg{
   fill: #ffffff;
 }
 
+.fill-blue-600{
+  fill: #1C64F2;
+}
+
+.fill-purple-600{
+  fill: #7E3AF2;
+}
+
+.fill-indigo-600{
+  fill: #5850EC;
+}
+
+.fill-purple-700{
+  fill: #6C2BD9;
+}
+
 .object-contain{
   -o-object-fit: contain;
      object-fit: contain;
@@ -3211,6 +3239,11 @@ input:checked + .toggle-bg{
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-gray-200{
+  --tw-text-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-text-opacity));
 }
 
 .underline{
@@ -4239,6 +4272,11 @@ svg {
 .dark\:text-white:is(.dark *){
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.dark\:text-gray-600:is(.dark *){
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
 .dark\:hover\:bg-blue-700:hover:is(.dark *){

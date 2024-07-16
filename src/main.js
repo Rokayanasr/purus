@@ -46,8 +46,8 @@ hideBtnEl3.addEventListener('click', () => {
     hideBtnEl3.classList.toggle('hidden');
 });
 document.addEventListener('DOMContentLoaded', function() {
-    document.getElementById('body').style.display = 'block';
-    document.getElementById('msg').style.display = 'none';
+    // document.getElementById('body').style.display = 'block';
+    // document.getElementById('msg').style.display = 'none';
 
     let lastScrollTop = 0;
     const nav = document.querySelector('nav');
