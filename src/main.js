@@ -8,6 +8,8 @@ const moreTextEl3 = document.getElementById('more-text3');
 const toggleBtnEl3 = document.getElementById('toggle-btn3');
 const hideBtnEl3 = document.getElementById('hide-btn3');
 
+
+
 toggleBtnEl.addEventListener('click', () => {
     moreTextEl.classList.toggle('hidden');
     toggleBtnEl.classList.toggle('hidden');
@@ -42,4 +44,21 @@ hideBtnEl3.addEventListener('click', () => {
     moreTextEl3.classList.toggle('hidden');
     toggleBtnEl3.classList.toggle('hidden');
     hideBtnEl3.classList.toggle('hidden');
+});
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('body').style.display = 'block';
+    document.getElementById('msg').style.display = 'none';
+
+    let lastScrollTop = 0;
+    const nav = document.querySelector('nav');
+    
+    window.addEventListener('scroll', function() {
+        let currentScroll = window.scrollY;
+        if (currentScroll > lastScrollTop) {
+            nav.classList.add('hidden');
+        } else {
+            nav.classList.remove('hidden');
+        }
+        lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+    });
 });
