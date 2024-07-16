@@ -48,10 +48,20 @@ hideBtnEl3.addEventListener('click', () => {
 document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('body').style.display = 'block';
     document.getElementById('loading').style.display = 'none';
+    const navLinks = document.querySelectorAll('#navbar-default .nav-link');
+    const navbarToggle = document.querySelector('[data-collapse-toggle="navbar-default"]');
+    const nav = document.querySelector('nav');
 
     let lastScrollTop = 0;
-    const nav = document.querySelector('nav');
     
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            if (navbarToggle.getAttribute('aria-expanded') === 'true') {
+                navbarToggle.click();
+            }
+        });
+    });
+
     window.addEventListener('scroll', function() {
         let currentScroll = window.scrollY;
         if (currentScroll > lastScrollTop) {
